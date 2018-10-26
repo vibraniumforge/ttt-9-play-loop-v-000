@@ -38,8 +38,7 @@ end
 # Define your play method below
 def play(board)
 turn=0
-if turn<8
+while turn<8
   turn(board)
-else
 end
 end
